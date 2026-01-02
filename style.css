@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Inconsolata, monospace;
-  background-color: rgb(19, 4, 67);
+  background-color: rgb(10, 3, 32);
   color: #ebebeb;
 }
 
@@ -10,7 +10,7 @@ header {
   color: #d2c2c2;
   padding: 2rem;
   text-align: center;
-  font-size: 6.5rem;
+  font-size: 3rem;
 }
 
 main {
@@ -34,7 +34,7 @@ main {
   border: none;
   padding: 2rem;
   text-align: right;
-  font-size: 3rem;
+  font-size: 8rem;
 }
 
 footer {
