@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: rgb(10, 13, 43);
+  background-color: rgb(33, 22, 70);
   color: #d2c2c2;
 }
 
 header {
   background-color: #d2c2c2;
-  color: rgb(10, 13, 43);
+  color: rgb(33, 22, 70);
   padding: 2rem;
   text-align: center;
 }
@@ -25,16 +25,13 @@ main {
 }
 
 .card img {
-  width: 200px;
+  width: 180px;
   height: auto;
 }
 
-.text-box {
+.text-right {
   border: none;
   padding: 12px;
-}
-
-.right {
   text-align: right;
 }
 
