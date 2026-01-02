@@ -1,13 +1,13 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: #f5f5f5;
-  color: #222;
+  background-color: rgb(10, 13, 43);
+  color: #d2c2c2;
 }
 
 header {
-  background-color: #222;
-  color: white;
+  background-color: #d2c2c2;
+  color: rgb(10, 13, 43);
   padding: 2rem;
   text-align: center;
 }
@@ -18,8 +18,24 @@ main {
   padding: 0 1rem;
 }
 
-section {
-  margin-bottom: 2rem;
+.card {
+  display: flex;
+  align-items: center;   
+  gap: 16px;            
+}
+
+.card img {
+  width: 200px;
+  height: auto;
+}
+
+.text-box {
+  border: none;
+  padding: 12px;
+}
+
+.right {
+  text-align: right;
 }
 
 footer {
@@ -28,3 +44,5 @@ footer {
   color: #666;
   font-size: 0.9rem;
 }
+
+
