@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: rgb(33, 22, 70);
-  color: #d2c2c2;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #d2c2c2;
+  color: rgb(10, 3, 32);
 }
 
 header {
-  background-color: #d2c2c2;
-  color: rgb(33, 22, 70);
+  background-color: rgb(10, 3, 32);
+  color: #d2c2c2;
   padding: 2rem;
   text-align: center;
 }
@@ -33,6 +33,7 @@ main {
   border: none;
   padding: 12px;
   text-align: right;
+  font-size: 48px;
 }
 
 footer {
