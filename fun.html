@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>enric's website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="services">
+    <div class="page-shell">
+      <header class="top-nav">
+        <a class="brand" href="index.html">
+          <img class="brand-icon" src="https://i.namu.wiki/i/ZoFEtEG3t9J1YQLWU7vS5j5uuljro4NlBrHtZ3E4ZULYTch-Fn6FUmiAJ836ZRkLsZWBhuu_aIzLdrlo3m64PQ.webp" alt="Site icon" />
+          <span>kuruluu.github.io</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">home</a>
+          <a href="fun.html" class="active">fun</a>
+          <a href="extra.html">extra</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="tier-page">
+          <div class="tier-intro">
+            <p class="eyebrow">i've played a lot, lot of games in my life.</p>
+            <h1>here's a tier list of all the games i love</h1>
+          </div>
+
+          <div class="tier-list">
+            <div class="tier-row tier-peak">
+              <div class="tier-label">peak</div>
+              <div class="tier-slot tier-images-slot" data-tier="peak"></div>
+            </div>
+            <div class="tier-row tier-high">
+              <div class="tier-label">high class</div>
+              <div class="tier-slot tier-images-slot" data-tier="high class"></div>
+            </div>
+            <div class="tier-row tier-good">
+              <div class="tier-label">good</div>
+              <div class="tier-slot tier-images-slot" data-tier="good"></div>
+            </div>
+            <div class="tier-row tier-decent">
+              <div class="tier-label">decent</div>
+              <div class="tier-slot tier-images-slot" data-tier="decent"></div>
+            </div>
+          </div>
+
+          <div class="tier-details-section">
+            <div class="tier-intro">
+              <h1>detailed list</h1>
+            </div>  
+
+            <div class="tier-details">
+              <div class="tier-detail-group tier-peak" data-tier-detail="peak">
+                <div class="tier-detail-heading">peak</div>
+                <div class="tier-detail-list" data-detail-tier="peak"></div>
+              </div>
+              <div class="tier-detail-group tier-high" data-tier-detail="high class">
+                <div class="tier-detail-heading">high class</div>
+                <div class="tier-detail-list" data-detail-tier="high class"></div>
+              </div>
+              <div class="tier-detail-group tier-good" data-tier-detail="good">
+                <div class="tier-detail-heading">good</div>
+                <div class="tier-detail-list" data-detail-tier="good"></div>
+              </div>
+              <div class="tier-detail-group tier-decent" data-tier-detail="decent">
+                <div class="tier-detail-heading">decent</div>
+                <div class="tier-detail-list" data-detail-tier="decent"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

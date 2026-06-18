@@ -1,29 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Enric's Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1 style="letter-spacing: 0.8rem;">ENRIC DUONG</h1>
-    <h2><pre>University of Waterloo '30  •  Mathematics</pre></h2>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>enric's website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body data-page="home">
+    <div class="page-shell">
+      <header class="top-nav">
+        <a class="brand" href="index.html">
+          <img class="brand-icon" src="https://i.namu.wiki/i/ZoFEtEG3t9J1YQLWU7vS5j5uuljro4NlBrHtZ3E4ZULYTch-Fn6FUmiAJ836ZRkLsZWBhuu_aIzLdrlo3m64PQ.webp" alt="Site icon" />
+          <span>kuruluu.github.io</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="nav-links">
+          <a href="index.html" class="active">home</a>
+          <a href="fun.html">fun</a>
+          <a href="extra.html">extra</a>
+        </nav>
+      </header>
 
-  <main>
-    <div class="card">
-      <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" alt="blank icon">
-      <div class="text-box">
-        <p>
-          Hey, I'm Enric! <br>
-          I aim to support others using all tools within my access.
-        </p>
-      </div>
+      <main>
+        <section class="hero">
+          <div class="hero-content">
+            <p class="eyebrow">hey! my name is</p>
+            <h1>enric duong</h1>
+            <p class="hero-text">
+              an honours mathematics '30 waterloo student. i love solving problems, learning new things, and building cool stuff. welcome to my portfolio!
+            </p>
+          </div>
+        </section>
+
+        <section class="right-text-section">
+          <div>
+            <h2>stats i'm proud of</h2>
+          </div>
+        </section>
+
+        <section class="stats-section">
+          <div class="achievement-grid">
+            <a class="achievement-card" href="https://codeforces.com/profile/kuruluu" target="_blank" rel="noopener noreferrer">
+              <img class="achievement-logo-img" src="https://cdn.iconscout.com/icon/free/png-256/free-code-forces-logo-icon-svg-download-png-3029920.png" alt="Codeforces logo" />
+              <span class="achievement-caption">1800 codeforces</span>
+            </a>
+            <a class="achievement-card" href="https://www.allstarma.ca/" target="_blank" rel="noopener noreferrer">
+              <img class="achievement-logo-img" src="https://cdn.prod.website-files.com/662bf85bdbef59a771a33eaf/662bfd7111526600771a1b5d_Layer%202.png" alt="All Star Martial Arts logo" />
+              <span class="achievement-caption">3rd dan blackbelt</span>
+            </a>
+            <a class="achievement-card" href="https://www.rcmusic.com/" target="_blank" rel="noopener noreferrer">
+              <img class="achievement-logo-img piano-logo"  src="https://media.licdn.com/dms/image/v2/C4D0BAQHhfan6bv89vQ/company-logo_200_200/company-logo_200_200/0/1631328139378?e=2147483647&v=beta&t=oIkoPLAsDtpDnSFZdoynh9IksxeIbUuquDI5FLHz4YE" alt="Piano logo" />
+              <span class="achievement-caption">level 10 piano with distinction</span>
+            </a>
+            <a class="achievement-card" href="https://monkeytype.com/" target="_blank" rel="noopener noreferrer">
+              <img class="achievement-logo-img" src="https://files.svgcdn.io/simple-icons/monkeytype.svg" alt="Monkeytype logo" />
+              <span class="achievement-caption">160 words per minute</span>
+            </a>
+            <a class="achievement-card" href="https://www.chess.com/member/kokokuu" target="_blank" rel="noopener noreferrer">
+              <img class="achievement-logo-img" src="https://static.wikia.nocookie.net/logopedia/images/2/2e/Chess.com_2019_%28Icon%29.svg/revision/latest/scale-to-width-down/250?cb=20260528013227" alt="Chess.com logo" />
+              <span class="achievement-caption">1800 blitz</span>
+            </a>
+            <a class="achievement-card" href="https://humanbenchmark.com/tests/memory" target="_blank" rel="noopener noreferrer">
+              <img class="achievement-logo-img" src="https://media.senscritique.com/media/000017717217/300/Human_Benchmark.png" alt="Human Benchmark logo" />
+              <span class="achievement-caption">24 visual memory</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="feature-section">
+          <div class="section-heading">
+            <p class="eyebrow">here's some of the</p>
+            <h2>cool things i worked on</h2>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-card">
+              <h3>placeholder one</h3>
+              <p>thing one</p>
+            </article>
+            <article class="feature-card">
+              <h3>placeholder two</h3>
+              <p>thing two</p>
+            </article>
+            <article class="feature-card">
+              <h3>placeholder three</h3>
+              <p>thing three</p>
+            </article>
+          </div>
+        </section>
+      </main>
     </div>
 
-
-  </main>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
